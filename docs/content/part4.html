@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../../css/bootstrap.css" >
 
     <!-- Font family -->
-    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet'>
+    <link href="http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet">
     <title>Dot Com Bubble</title>
 </head>
 <body>
@@ -47,7 +47,14 @@
 </nav>
 <div class="jumbotron">
 	<h1 class="display-4">Packets, Routing, and Reliability</h1>
-	<p class="lead">*Content goes here*</p>
+	<p class="lead">Information on the Internet goes around in packets, and in a very indirect fashion.<br/>
+	Packets travel a lot like how you would travel in traffic. Depending on traffic conjestions or road conditions, it might change paths.<br/>
+	Data is divided into packets so that each packet can take a different path to the same destination and get "reassembled" at the end, into its original state. <br/>
+	Each packet has their source and destination address, and their route is determined by devices called "routers".<br/>
+		
+	</p>
+	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/TCP_CLOSE.svg/260px-TCP_CLOSE.svg.png">
+	<p class="lead">For example, Spotify sends packets using TCP, meaning that packets of the audio stream will be sent but individual packets will always be played in the correct order.</p>
 	<hr class="my-4">
 	<a class="btn btn-primary btn-lg" href="part3.html" role="button">&lt Previous</a>
 	<a class="btn btn-primary btn-lg" href="part5.html" role="button">Next &gt</a>
