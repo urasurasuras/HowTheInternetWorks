@@ -50,8 +50,30 @@
 	<h1 class="display-4">HTTP and HTML</h1>
 	<p class="lead">*Content goes here*</p>
 	<hr class="my-4">
-	<a class="btn btn-primary btn-lg" href="part4.html" role="button">&lt Previous</a>
-	<a class="btn btn-primary btn-lg" href="part6.html" role="button">Next &gt</a>
+
+    <!--Paginator-->
+    <nav aria-label="...">
+        <ul class="pagination">
+
+            <!--Prev-->
+            <li class="page-item">
+                <a class="page-link" href="part4.html">Previous</a>
+            </li>
+
+            <!--Pages-->
+            <li class="page-item"><a class="page-link" href="part1.html">1</a></li>
+            <li class="page-item"><a class="page-link" href="part2.html">2</a></li>
+            <li class="page-item"><a class="page-link" href="part3.html">3</a></li>
+            <li class="page-item"><a class="page-link" href="part4.html">4</a></li>
+            <li class="page-item active">      <span class="page-link">      5        <span class="sr-only">(current)</span>      </span>            </li>
+            <li class="page-item"><a class="page-link" href="part6.html">6</a></li>
+
+            <!--Next-->
+            <li class="page-item">
+                <a class="page-link" href="part6.html">Next</a>
+            </li>
+        </ul>
+    </nav>
 </div>
 
 <!-- Optional JavaScript -->

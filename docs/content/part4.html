@@ -57,8 +57,28 @@
 	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/TCP_CLOSE.svg/260px-TCP_CLOSE.svg.png">
 	<p class="lead">For example, Spotify sends packets using TCP, meaning that packets of the audio stream will be sent but individual packets will always be played in the correct order.</p>
 	<hr class="my-4">
-	<a class="btn btn-primary btn-lg" href="part3.html" role="button">&lt Previous</a>
-	<a class="btn btn-primary btn-lg" href="part5.html" role="button">Next &gt</a>
+
+    <!--Paginator-->
+    <nav aria-label="...">
+        <ul class="pagination">
+
+            <!--Prev-->
+            <li class="page-item">
+                <a class="page-link" href="part3.html">Previous</a>
+            </li>
+
+            <!--Pages-->
+            <li class="page-item"><a class="page-link" href="part1.html">1</a></li>
+            <li class="page-item"><a class="page-link" href="part2.html">2</a></li>
+            <li class="page-item"><a class="page-link" href="part3.html">3</a></li>
+            <li class="page-item active">      <span class="page-link">      4        <span class="sr-only">(current)</span>      </span>            </li>
+
+            <!--Next-->
+            <li class="page-item disabled">
+                <a class="page-link" href="part5.html">Next</a>
+            </li>
+        </ul>
+    </nav>
 </div>
 
 
