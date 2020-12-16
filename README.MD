@@ -6,5 +6,6 @@ Items improved/revised/refactored
  * Content page Jumbotrons are now in containers, all jumbotrons have borders and are consistent across home and content pages
  * About page has links to all content pages
  * Content pages now have a pagination bar at the bottom
+ * Added footer
 
 PDF highlights refactors
