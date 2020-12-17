@@ -8,4 +8,4 @@ Items improved/revised/refactored
  * Content pages now have a pagination bar at the bottom
  * Added footer
 
-PDF highlights refactors
+[PDF](https://github.com/urasurasuras/HowTheInternetWorks/blob/master/IS%20177%20Final%20part%202%20.pdf) highlights refactors
